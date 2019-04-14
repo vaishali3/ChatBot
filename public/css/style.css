@@ -1,0 +1,65 @@
+html {
+  height: 100%;
+}
+
+body{
+  font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background: url("https://foxhillsresort.com/wp-content/uploads/2017/12/shutterstock_315123593-984x500.jpg");
+  background-size: cover;
+}
+h1{
+  margin: 0;
+  text-align:center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.7em;
+}
+h2{
+  margin: 0;
+  text-align:center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.7em;
+}
+button{
+  border:0;
+  border-radius: 50%;
+  height:300px;
+  width:300px;
+  text-align: center;
+  box-shadow: 2px 5px 30px rgba(100, 201, 300 .4);
+  color: #fff;
+  font-size: 40px;
+  margin-top: : 0.7em;
+   background: linear-gradient(180deg, #39C2C9 0%, #3FC8C9 80%, #3FC8C9 100%);
+    padding: .7em 1em;
+}
+button .fa {
+  font-size: 130px;
+  line-height: 200px;
+  margin: 0;
+  text-shadow: 1px 2px 2px #2a8b90;
+}
+button:hover {
+  transform: scale(.92);
+}
+button:active {
+  filter: brightness(.8);
+}
+button:focus {
+  outline: 0;
+}
+
+p{
+  padding-top: 1em;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+em{
+  font-size: 20px;
+  color: green;
+  font-family:monospace;
+}
